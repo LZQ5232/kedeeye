@@ -1,0 +1,449 @@
+html,body{
+    width: 100%;
+    overflow-x: hidden;
+}
+body{
+    background-color: #F0F0F0;
+    font-size: 12px;
+    color: rgb(51, 51, 51);
+    font-family: "宋体,Arial, Helvetica, sans-serif";
+}
+/*顶部样式*/
+#top{
+    width: 100%;
+    height: 26px;
+    color: #999999;
+    background-color: #f2f2f2;
+    border: 1px solid #e5e5e5;
+    border-top-width: 0px;
+}
+#top .info{
+    height: 26px;
+    line-height: 26px;
+}
+#top .content{
+    width: 1190px;
+    margin: 0 auto;
+}
+#top .info .fav{
+    width: 85px;
+    padding:0 0 0 22px;
+    background: url("../images/tubiao.png") no-repeat;
+    background-position: 2px 5px;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+#userTooleBarMemberStatus .toLogin,#userTooleBarMemberStatus .toRegister{
+    margin-left: 15px;
+}
+#userTooleBarMemberStatus a:hover{
+    color: #FD7B25;
+}
+.menu .menu_tab{
+    position: relative;
+    display: inline-block;
+    height: 26px;
+    line-height: 26px;
+    padding:0 5px 0 5px;
+}
+
+.menu   span{
+    color: #e5e5e5;
+}
+i{
+    background: url("../images/tubiao.png")no-repeat;
+    overflow: hidden;
+}
+.info .menu .menu_tab i{
+    width: 7px;
+    height: 4px;
+    display: inline-block;
+    background-position: 0 -27px;
+    position: absolute;
+    top:12px;
+    right: 1px;
+}
+
+.info .menu .menu_tab_bzzx{
+    width: 68px;
+    padding-left: 10px;
+}
+.menu .menu_tab_gwc{
+    background: url("../images/tubiao.png") no-repeat;
+    background-position: 3px -42px;
+    padding-left: 23px;
+}
+.menu_tab_cart{
+    color: #ff6600;
+}
+#top .info .menu .menu_tab_phone {
+    background: url("../images/tubiao.png") no-repeat;
+    background-position: 0px -67px;
+    border-left: 1px solid #e9e9e9;
+    padding-left: 20px;
+    margin-right: 5px;
+}
+.menu_tab_phone_img{
+    background: url("../images/tubiao.png") no-repeat;
+    background-position: 0 -146px;
+    width: 168px;
+    height: 203px;
+    margin: -5px 0 0 -65px;
+    position: absolute;
+    display: none;
+}
+.menu_tab_qq{
+    height: 26px;
+    padding:0 5px 0 20px;
+    position: relative;
+}
+.menu_tab_qq i{
+    width: 16px;
+    height: 16px;
+    background-position: -100px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.menu_tab_qq a{
+    color: #fe6809;
+}
+a:hover{
+    color: #ff6600;
+}
+
+.info .menu .selected .sub-item.selected  {
+    display:block;
+}
+.info .menu .sub-item{
+    width: 75px;
+    position: absolute;
+    border: 1px solid #dddddd;
+    border-top-width: 0;
+    right: -8px;
+    top: 25px;
+    padding: 4px 0px 0px 10px;
+    z-index: 200;
+    background-color: #fff;
+    box-shadow: rgba(204,204,204,0.4) 0 0 8px;
+    display: none;
+}
+.info .menu .sub-item a{
+    color:#333;
+    font-size:12px;
+}
+.info .menu .sub-item a:hover{
+    color: #ff6600;
+}
+/*头部开始*/
+.header {
+    height: 150px;
+    padding-top: 52px;
+    padding-bottom: 34px;
+    padding-left: 200px;
+}
+.header a,.header h2{
+    float: left;
+}
+.header .header_text{
+    width: 530px;
+    height: 56px;
+    border: 1px solid #edae1b;
+    line-height: 16px;
+    margin-left: 462px;
+    padding: 5px 10px;
+    background-color: #fdf7e9;
+    color: #666;
+}
+.header div{
+    width: 1190px;
+    margin: 0 auto;
+}
+.header h2{
+    line-height: 81px;
+    margin-left: 20px;
+    color: #666;
+    font-size: 18px;
+    font-weight: 100;
+}
+/*主体部分样式*/
+.main {
+    background: #fffdf4;
+}
+.main_bg{
+    width: 980px;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+}
+.bg_temp{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+
+/*注册*/
+.zhuce{
+    margin: 30px 30px 0 30px;
+    height: 40px;
+    line-height: 40px;
+}
+.zhuce_title{
+    color: #f60;
+    font-size: 22px;
+    float: left;
+    font-weight: bold;
+}
+.zhuce_login{
+    float: right;
+}
+.zhuce_login a{
+    font-size: 12px;
+    color: #f60;
+    display: inline;
+    padding-right: 5px;
+}
+.zhuce_login i{
+    float: right;
+    width: 16px;
+    height: 16px;
+    margin-top: 12px;
+    display: inline-block;
+    background-position: -412px -940px;
+}
+.register{
+    width: 340px;
+    height: 400px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.9);
+    clear: right;
+    border-radius: 3px;
+}
+
+.form_main{
+    width: 280px;
+    margin:15px auto;
+}
+.right_top li{
+    height: 38px;
+    margin-top: 10px;
+    border: 1px solid #bdbdbd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    position: relative;
+}
+.right_top .icon_label{
+    position: absolute;
+    left: 1px;
+    top: 8px;
+    width: 36px;
+    height: 18px;
+    text-align: center;
+    z-index: 9;
+}
+.right_top li label i{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+}
+.right_top li label i.mobile{
+    background-position: -502px -911px;
+}
+.right_top li  b{
+    display: inline-block;
+    width: 1px;
+    height: 25px;
+    position: absolute;
+    left: 40px;
+    top: 6px;
+    background-color: #ccc;
+}
+.right_top li .UserPhone{
+    width: 90%;
+    padding-left: 50px;
+    height: 100%;
+    border:none;
+}
+.right_top .code input.UserCode{
+    width: 156px;
+    padding-left: 10px;
+    height: 100%;
+    border:none;
+    float: left;
+}
+.right_top .code span{
+    display: inline-block;
+    width: 104px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+    color: #99C935;
+    background-color: #F4DEAF;
+    margin:2px 5px;
+    float: right;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+.right_top li label i.shield {
+    background-position: -526px -911px;
+}
+.right_top li .UserTelCode{
+    width: 160px;
+    height: 100%;
+    border:none;
+    padding-left: 46px;
+}
+.right_top li #btnGetRegistVerifyCode{
+    display: inline-block;
+    width: 104px;
+    height: 32px;
+    margin: -5px;
+    line-height: 32px;
+    text-align: center;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    overflow: hidden;
+    background-color: #999;
+    margin-left: 5px;
+    position: relative;
+    top: 6px;
+    color: #fff;
+    font-size: 16px;
+}
+.right_top li:hover{
+    border-color: #90c31f;
+}
+.right_top .passwd .lock{
+    background-position: -550px -911px;
+}
+input.UserPwd{
+    width: 275px;
+    height: 100%;
+    border:none;
+    height: 36px;
+    line-height: 36px;
+    outline:none;
+    font-size: 14px;
+    padding-left: 45px;
+}
+.lintMsg{
+    width: 280px;
+    height: 25px;
+    color: #f60;
+    line-height: 25px;
+    display: inline-block;
+    text-align: left;
+}
+.registerBtn{
+    width: 280px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    background-color: #f60;
+    border-radius: 5px;
+    border:none;
+}
+.registerBtn:hover{
+   background-color:  #f80;
+    cursor: pointer;
+}
+.right_bottom{
+    margin-top: 5px;
+}
+.right_bottom .agree{
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    margin-top: 2px;
+    display: inline-block;
+}
+.right_bottom a{
+    color: #6d9d03;
+}
+/*尾部样式*/
+.footer{
+    margin-top: 20px;
+    background: rgb(240, 240, 240);
+}
+.footer,.footer a{
+    color: #999;
+}
+.footer_in{
+    height: 150px;
+    width: 1190px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer_in .footer_top{
+    text-align: center;
+    padding:14px 0;
+}
+.footer_top p{
+    text-align: center;
+    padding-top: 5px;
+}
+.footer_top ul{
+    text-align: center;
+    position: relative;
+    left: 40%;
+}
+a:hover{
+    color: #f60;
+}
+.footer_top ul li{
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    line-height: 20px;
+}
+.banben{
+    height: 30px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+}
+.banben a{
+    display: inline-block;
+    float: left;
+    line-height: 30px;
+    height: 100%;
+    padding-right: 5px;
+}
+.banben a img{
+    display: inline;
+    padding-right: 5px;
+}
+.banben span{
+    float: left;
+    margin-right: 5px;
+}
+.banben span.copyRight{
+    margin-left: 340px;
+}
+.footer_bottom{
+    position: absolute;
+    left: 35%;
+    height: 40px;
+    width: 462px;
+    background: url("../images/FTC-01-bg3.jpg")no-repeat 0 0;
+}
+.footer_bottom a{
+    display: block;
+    float: left;
+    width: 115px;
+    height: 40px;
+}
