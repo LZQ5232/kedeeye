@@ -37,4 +37,14 @@ $(function () {
     });
     $('#btnGetRegistVerifyCode').click(function () {
         $(this).html(RandomCode());})
+    
+    
+//    登录的tab栏切换
+    console.log(11);
+  
+
+
+
+
+
 })

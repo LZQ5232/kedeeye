@@ -1,0 +1,256 @@
+/*登录表单样式*/
+.login_right{
+    width: 340px;
+    height: 360px;
+    position: absolute;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,.9);
+    border-radius: 3px;
+    overflow: hidden;
+    z-index: 1000;
+    position: absolute;
+    right: 0;
+    margin-top: 50px;
+}
+.displayBlock{
+    display: block;
+}
+.l_r_title{
+    width: 100%;
+    line-height: 24px;
+    padding:18px 0;
+    font-size: 20px;
+    font-family: "微软雅黑";
+    color:rgb(230,230,230);
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+.l_r_title label{
+    margin: 0 40px;
+    cursor: pointer;
+    color: #666666;
+}
+.l_r_title label:hover{
+    color: #f60;
+}
+.l_r_title label.active{
+    color: #89b929 !important;
+}
+.namePwdLogin{
+    display: none;
+}
+.fLogin{
+    width: 280px;
+    margin: 0 auto;
+    height: 200px;
+}
+.fLogin .r_username{
+    width: 100%;
+    padding-top: 34px;
+}
+.fLogin p{
+    position: relative;
+    height: 36px;
+
+}
+form p> span{
+    position: absolute;
+    width: 40px;
+    height: 36px;
+    top: 0;
+    left: 0;
+    background: url("../images/allbgs.png")no-repeat 0 0;
+}
+.r_username p span{
+    background-position: -62px 4px;;
+}
+ /*单选框的选中样式*/
+.fLogin .position1 {
+    background-position: -13px -432px;
+}
+
+ input {
+     width: 280px;
+     height: 36px;
+     line-height: 36px;
+     padding-left: 48px;
+     outline: none;
+     border: 1px solid #bdbdbd;
+     color: #666;
+     font-size: 14px;
+ }
+ form  b{
+     width: 1px;
+     height: 25px;
+     background-color: #cccccc;
+     position: absolute;
+     left:40px;
+     top: 5px;
+ }
+.r_password{
+    padding-top: 10px;
+}
+ .r_password p span{
+     background-position: -62px -31px;;
+ }
+ .r_remeber{
+     height: 24px;
+     line-height: 24px;
+     font-size: 14px;
+     color: #666;
+     width: 100%;
+ }
+ .fLogin s{
+     vertical-align: middle;
+     background: url("../images/allbgs.png")no-repeat 0 -432px;
+     width: 12px;
+     height: 12px;
+     margin-right: 5px;
+     display: inline-block;
+     margin-top: 6px;
+     font-style: normal;
+ }
+.r_remeber label{
+    color: #666;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 6px;
+}
+.r_remeber a{
+    display: inline-block;
+    float: right;
+    color:#ff6600;
+    font-size: 13px;
+    margin-top: 6px;
+}
+.r_remeber a:hover{
+    color:#666;
+}
+
+.r_submit{
+    width: 100%;
+    margin-top: 16px;
+}
+.r_submit input{
+    border: none;
+    outline: none;
+    width: 280px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f60;
+    font-size: 18px;
+    letter-spacing: 34px;
+    border-radius: 5px;
+    color:#fff;
+    font-weight: 400;
+    opacity: 1;
+}
+.button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+/*不同账号登录*/
+.defferLogin{
+    height: 60px;
+    width: 100%;
+    padding: 0 20px;
+    background-color: #ebebf1;
+    margin-top: 39px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.weixin,.weibo ,.qq ,.zhifubao{
+    background:url("../images/allbgs.png")no-repeat;
+    width: 32px;
+    height: 32px;
+    display: block;
+    float: left;
+    margin: 14px 8px 0 0;
+    cursor: pointer;
+    border-radius: 18px;
+    opacity: 1;
+}
+.defferLogin a:hover{
+    opacity: 0.5;
+}
+.defferLogin a.weixin{
+    background-position: -120px -74px;
+}
+.defferLogin a.qq{
+    background-position: 0 -74px;
+}
+.defferLogin a.weibo{
+    background-position: -40px -74px;
+}
+.defferLogin a.zhifubao{
+    background-position: -80px -74px;
+}
+.toRegister{
+    float: right;
+    line-height: 60px;
+    color:#f60;
+}
+.toRegister a{
+    display: inline-block;
+    color:#f60;
+    font-size: 14px;
+}
+.toRegister i{
+    background: url("../images/tubiao.png")no-repeat;
+    background-position: -412px -940px;;
+    float: right;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin:22px 0 0 5px;
+}
+
+.saomalogin{
+    width: 100%;
+    text-align: center;
+}
+.saomalogin .l_qrcode_content{
+    width: 142px;
+    height: 200px;
+    position: relative;
+    margin-top: 25px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.l_qrcode_content img{
+    width: 142px;
+    height: 142px;
+    cursor: pointer;
+}
+.l_tip_text{
+    position: relative;
+    margin-top: 16px;
+}
+.l_tip_text i{
+    background: url("../images/allbgs.png")no-repeat;
+    background-position: -118px -15px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: -6px;
+    bottom: -38px;
+}
+.l_tip_text span.label_login{
+    position: absolute;
+    right: -5px;
+    display: block;
+    text-align: left;
+    top: 1px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #999999;
+}
+.qrcode-timeout{
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    display: inline-block;
+    z-index: 9;
+
+}

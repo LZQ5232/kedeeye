@@ -2,9 +2,2438 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>index</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/top.js"></script>
+    <script src="js/index.js"></script>
 </head>
 <body>
+<!--顶部布局-->
+<div id="top">
+    <div class="content info">
+        <div class="fav float-left">
+            <a href="javascript" id="favSideBar">收藏可得网</a>
+        </div>
+        <div id="userTooleBarMemberStatus" class="float-left">
+            您好，欢迎光临可得眼镜网！
+            <a href="login.html" class="toLogin" target="_self">登录</a>
+            <a href="register.html" class="toRegister" target="_self">[免费注册]</a>
+        </div>
+        <div class="menu  float-right">
+                <span class="menu_tab menu_tab_lq">
+                    <a href="javascript:;">我的优惠券</a>
+                </span>
+            <span class="menu_tab  menu_tab_bzzx">
+                    <a href="javascript:;" target="_self" class="arrow">我的可得</a>
+                    <i></i>
+                    <ul class="sub-item">
+                        <li><a href="javascript:;">我的订单</a></li>
+                        <li><a href="javascript:;">我的收藏</a></li>
+                        <li><a href="javascript:;">积分兑换</a></li>
+                        <li><a href="javascript:;">我的验光单</a></li>
+                    </ul>
+                </span>
+            <span class="menu_tab  menu_tab_bzzx">
+                    <a href="javascript:;" class="arrow">帮助中心</a>
+                    <i></i>
+                        <ul class="sub-item">
+                        <li><a href="javascript:;">常见问题</a></li>
+                        <li><a href="javascript:;">退货换货</a></li>
+                        <li><a href="javascript:;">快递查询</a></li>
+                        <li><a href="javascript:;">眼睛学堂</a></li>
+                        <li><a href="javascript:;">优惠券使用</a></li>
+                        <li><a href="javascript:;">投诉建议</a></li>
+                        <li><a href="javascript:;">网站地图</a></li>
+                    </ul>
+                </span>
+            <span>|</span>
+            <span class="menu_tab  menu_tab_gwc">
+                    <a href="javascript:;" class="arrow">购物车
+                    <span id="menu_tab_cart">0</span>
+                    </a>
+                    <i></i>
+                </span>
+            <span class="menu_tab menu_tab_phone">
+                    <a href="javascript:;">手机版</a>
+                        <span class="menu_tab_phone_img"></span>
+                </span>
+            <span class="menu_tab_qq">
+                    <i></i>
+                    <a href="javascript:;">客服电话：4006-20-20-20 ( 8:30-23:45 )</a>
+                </span>
+        </div>
+    </div>
+</div>
+<!--顶部结束-->
+<!--头部图片-->
+<div class="con-mark-bg">
+    <div class="con-mark-main">
+        <img src="images/tl.jpg" alt="">
+    </div>
+</div>
+
+<!--右侧漂浮开始-->
+<div class="fixed_right">
+    <a href="javascript:;" class="fixed_right1"></a>
+    <a href="javascript:;" class="fixed_right2"></a>
+    <a href="javascript:;" class="fixed_right3"></a>
+    <a href="javascript:;"  class="fixed_right4"></a>
+    <a href="javascript:;" class="fixed_right5"></a>
+    <div class="fixed_weixin"></div>
+    <div class="ygs"></div>
+</div>
+<!--右侧漂浮结束-->
+
+<!--左侧漂浮开始-->
+<div class="pf_left" style="display: block;">
+    <a class="pf_left_1" href="#wide_f_1"></a>
+    <a class="pf_left_2" href="#wide_f_2"></a>
+    <a class="pf_left_3" href="#wide_f_3"></a>
+    <a class="pf_left_4" href="#wide_f_4"></a>
+</div>
+<!--左侧漂浮结束-->
+<!--头部图片结束-->
+
+<!--头部导航-->
+<div class="wide_page_top">
+    <div class="content wide_page_top_cont">
+        <div class="logo float-left">
+            <a href="javascript:;"><img src="images/kede_logo.gif" alt=""></a>
+        </div>
+        <div class="float-left ind_top_baozhan"></div>
+        <!--模糊查询-->
+        <form action="" id="searchform" >
+            <div id="top_search">
+                <div class="search_top_left float-left">
+                    <i></i>
+                    <b></b>
+                    <input type="text" name="keyword" maxlength="50">
+                </div>
+                <div class="search_btn_right  float-left">
+                    <input type="button" value="搜索">
+                </div>
+                <div class="hotSearch"></div>
+            </div>
+        </form>
+    </div>
+    <!--nav-->
+    <div class="wide_channel">
+        <div class="content">
+            <!--全部商品分类与导航栏-->
+            <div class="wide_channel_category float-left">
+                全部商品分类
+                <i class="all-class"></i>
+                <!--下拉-->
+                <ul class="category_info">
+                    <li class="list_item">
+                        <i class="item_left left_img1"></i>
+                        <h3 class="item_right">
+                            <a href="javascript:;">透明隐形眼镜</a>
+                        </h3>
+                        <i class="item_arrow"></i>
+                        <div class="list_item_line"> </div>
+                        <div class="child_list">
+                            <ul class="child_list_left">
+                                <li class="child_list_dt">
+                                        品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <ul class="child_list_right">
+                                <li class="child_list_imgup">
+                                    <a href="javascript:;">
+                                        <img src="images/bp_a1.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li class="child_list_imgdown">
+                                    <a href="javascript:;">
+                                        <img src="images/bp_a2.jpg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li class="list_item">
+                        <i class="item_left left_img2"></i>
+                        <h3 class="item_right">
+                            <a href="javascript:;">彩色隐形眼镜</a>
+                        </h3>
+                        <i class="item_arrow"></i>
+                        <div class="list_item_line"> </div>
+                        <div class="child_list">
+                            <ul class="child_list_left">
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <ul class="child_list_right">
+                                <li class="child_list_imgup">
+                                    <a href="javascript:;">
+                                        <img src="images/bp_a1.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li class="child_list_imgdown">
+                                    <a href="javascript:;">
+                                        <img src="images/bp_a2.jpg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li class="list_item">
+                        <i class="item_left left_img3"></i>
+                        <h3 class="item_right">
+                            <a href="javascript:;">功能眼镜</a>
+                        </h3>
+                        <i class="item_arrow"></i>
+                        <div class="list_item_line"> </div>
+                        <div class="child_list">
+                            <ul class="child_list_left">
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <ul class="child_list_right">
+                                <li class="child_list_imgup">
+                                    <a href="javascript:;">
+                                        <img src="images/bp_a1.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li class="child_list_imgdown">
+                                    <a href="javascript:;">
+                                        <img src="images/bp_a2.jpg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li class="list_item">
+                        <i class="item_left left_img4"></i>
+                        <h3 class="item_right">
+                            <a href="javascript:;">护理用品</a>
+                        </h3>
+                        <i class="item_arrow"></i>
+                        <div class="list_item_line"> </div>
+                        <div class="child_list">
+                            <ul class="child_list_left">
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <ul class="child_list_right">
+                                <li class="child_list_imgup">
+                                    <a href="javascript:;">
+                                        <img src="images/bp_a1.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li class="child_list_imgdown">
+                                    <a href="javascript:;">
+                                        <img src="images/bp_a2.jpg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li class="list_item">
+                        <i class="item_left left_img5"></i>
+                        <h3 class="item_right">
+                            <a href="javascript:;">近视眼镜</a>
+                        </h3>
+                        <i class="item_arrow"></i>
+                        <div class="list_item_line"> </div>
+                        <div class="child_list">
+                            <ul class="child_list_left">
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <ul class="child_list_right">
+                                <li class="child_list_imgup">
+                                    <a href="javascript:;">
+                                        <img src="images/bp_a1.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li class="child_list_imgdown">
+                                    <a href="javascript:;">
+                                        <img src="images/bp_a2.jpg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li class="list_item">
+                        <i class="item_left left_img6"></i>
+                        <h3 class="item_right">
+                            <a href="javascript:;">太阳眼镜</a>
+                        </h3>
+                        <i class="item_arrow"></i>
+                        <div class="list_item_line"> </div>
+                        <div class="child_list">
+                            <ul class="child_list_left">
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <ul class="child_list_right">
+                                <li class="child_list_imgup">
+                                    <a href="javascript:;">
+                                        <img src="images/bp_a1.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li class="child_list_imgdown">
+                                    <a href="javascript:;">
+                                        <img src="images/bp_a2.jpg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li class="list_item list_item_btm">
+                        <i class="item_left left_img7"></i>
+                        <h3 class="item_right">
+                            <a href="javascript:;">美妆个护</a>
+                        </h3>
+                        <i class="item_arrow"></i>
+                        <div class="list_item_line"> </div>
+                        <div class="child_list">
+                            <ul class="child_list_left">
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                                <li class="child_list_dt">
+                                    品牌
+                                    <b> > </b>
+                                </li>
+                                <li class="child_list_dd">
+                                    <dl>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                        <dd>博士伦</dd>
+                                        <dd>强生</dd>
+                                        <dd>视康爱尔康</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                            <ul class="child_list_right">
+                                <li class="child_list_imgup">
+                                    <a href="javascript:;">
+                                        <img src="images/bp_a1.jpg" alt="">
+                                    </a>
+                                </li>
+                                <li class="child_list_imgdown">
+                                    <a href="javascript:;">
+                                        <img src="images/bp_a2.jpg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <ul class="wide_channel_right float-left">
+                <li class="item"><a href="javascript:;">首页</a></li>
+                <li class="item"><a href="javascript:;">海外购</a></li>
+                <li class="item"><a href="javascript:;">彩瞳</a></li>
+                <li class="item"><a href="javascript:;">隐形眼镜</a></li>
+                <li class="item"><a href="javascript:;">护理用品</a></li>
+                <li class="item"><a href="javascript:;">框架眼镜</a></li>
+                <li class="item"><a href="javascript:;">美妆个户</a></li>
+                <li class="item"><a href="javascript:;">积分商城</a></li>
+
+            </ul>
+            <!--全部商品分类与导航栏结束-->
+        </div>
+    </div>
+</div>
+<!-- 头部导航结束-->
+<!--banner 轮播图-->
+<div class="banner_bg">
+    <div class="content">
+        <div class="banner_wrap">
+            <ul class="slidebox">
+                <li><a href="javascript:;"><img src="images/banner_wrap/baner_cbecfe.jpg" alt=""></a></li>
+                <li><a href="javascript:;"><img src="images/banner_wrap/banner_1112.jpg" alt=""></a></li>
+                <li><a href="javascript:;"><img src="images/banner_wrap/banner_1114.jpg" alt=""></a></li>
+                <li><a href="javascript:;"><img src="images/banner_wrap/banner_1130.jpg" alt=""></a></li>
+                <li><a href="javascript:;"><img src="images/banner_wrap/banner_fffdf4.jpg" alt=""></a></li>
+            </ul>
+            <!--小圆点-->
+            <div class="dot">
+                <ol>
+                    <li class="cur">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                </ol>
+            </div>
+        </div>
+        <!--右侧-->
+        <div class="wide_banner_right">
+            <img src="images/0f_right1.jpg" alt="">
+        </div>
+    </div>
+</div>
+<!--banner 轮播图结束-->
+<!--热门搜索-->
+<div class="content">
+    <div class="wide_classify">
+        <div class="wide_classify_left float-left">
+            <p>热门搜索</p>
+            <ul>
+                <li><a href="javascript:;">绮芙莉</a></li>
+                <li><a href="javascript:;">菲蜜莉</a></li>
+                <li><a href="javascript:;">茵洛</a></li>
+                <li><a href="javascript:;">实瞳</a></li>
+                <li><a href="javascript:;">海昌</a></li>
+                <li><a href="javascript:;">诺思</a></li>
+                <li><a href="javascript:;">卫康</a></li>
+                <li><a href="javascript:;">SHO-BI</a></li>
+                <li><a href="javascript:;">硬镜护理</a></li>
+            </ul>
+        </div>
+        <div class="wide_classify_cont float-left">
+            <a href="javascript:;"><img src="images/0fa1.jpg" alt=""></a>
+            <a href="javascript:;"><img src="images/0fa2.jpg" alt=""></a>
+            <a href="javascript:;"><img src="images/0fa3.jpg" alt=""></a>
+        </div>
+        <div class="wide_classify_right">
+            <ul class="wide_classify_right_tis">
+                <li ><a href="javascript:;">促销活动</a></li>
+                <li class="selected"><a href="javascript:;">最新动态</a></li>
+            </ul>
+            <div class="wide_classify_tabB">
+                <ul class="wide_classify_tabB_left">
+                    <li><a href="javascript:;">可得海外购，正品低价</a></li>
+                    <li><a href="javascript:;">赠100元咖啡卡</a></li>
+                </ul>
+                <ul class="wide_classify_tabB_right">
+                    <li><a href="javascript:;">上海地区快递调整</a></li>
+                    <li><a href="javascript:;">可得海外购，正品低价</a></li>
+                    <li><a href="javascript:;">货到付款业务调整</a></li>
+                    <li><a href="javascript:;">爱眼百科小知识</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!--每日秒杀开始-->
+<div class="hp_top">
+    <div class="hp_mbody">
+        <div class="hp_mbody_left">
+            <div class="jrms">
+                <a href="javascript:;" class="zw"></a>
+            </div>
+            <div class="zdm">
+                <a href="javascript:;" class="buy"></a>
+            </div>
+        </div>
+        <div class="hp_mbody_right">
+            <div id="zw" class="hp_menu">
+                <ul>
+                    <li class="hp_mj"><a href=""><img src="images/ms1.jpg" alt="">
+                        <p>茵洛Clalen月抛1片装
+                            <br>
+                            <span>
+                            <b>￥</b>
+                            29
+                        </span></p>
+                    </a></li>
+                    <li class="hp_mj"><a href=""><img src="images/ms2.jpg" alt="爱尔康视康多水润日抛30片">
+                        <p>爱尔康视康多水润日抛30片
+                            <br>
+                            <span>
+                            <b>￥</b>
+                            126(赠同款5片)
+                        </span></p>
+                    </a></li>
+                    <li class="hp_mj"><a href=""><img src="images/ms3.jpg" alt="">
+                        <p>实瞳可芙蕾日抛30片装
+                            <br>
+                            <span>
+                            <b>￥</b>
+                            159
+                        </span></p>
+                    </a></li>
+                    <li class="hp_mj"><a href=""><img src="images/ms4.jpg" alt="HAN会场">
+                        <p>纯钛半框 让轻更轻
+                            <br>
+                            <span>
+                            <b>￥</b>
+                            179
+                        </span></p>
+                    </a></li>
+                    <li class="hp_mj"><a href=""><img src="images/ms5.jpg" alt="RAY蚕丝面膜 ">
+                        <p>进口美妆
+                            <br>
+                            <span>
+                            <b></b>
+                        </span></p>
+                    </a></li>
+                </ul>
+            </div>
+            <div id="buy" class="hp_menu">
+                <ul>
+                    <li class="hp_mj"><a href=""><img src="images/zhi1.jpg" alt="安瞳繁朵月抛2片装">
+                        <p>安瞳繁朵月抛2片装
+                            <br>
+                            <span>
+                            <b>￥</b>
+                            48
+                        </span></p>
+                    </a></li>
+                    <li class="hp_mj"><a href=""><img src="images/zd2.jpg" alt="库博幻眸日抛10片装">
+                        <p>库博幻眸日抛10片装
+                            <br>
+                            <span>
+                            <b>￥</b>
+                            65
+                        </span></p>
+                    </a></li>
+                    <li class="hp_mj"><a href=""><img src="images/zd3.jpg" alt="卫康X-BLUE年抛1片装">
+                        <p>卫康X-BLUE年抛1片装
+                            <br>
+                            <span>
+                            <b>￥</b>
+                            18
+                        </span></p>
+                    </a></li>
+                    <li class="hp_mj"><a href=""><img src="images/zd4.jpg" alt="卓优妮卡多功能护理液60ml">
+                        <p> 卓优妮卡多功能护理液60ml
+                            <br>
+                            <span>
+                            <b>￥</b>
+                            23.8
+                        </span></p>
+                    </a></li>
+                    <li class="hp_mj"><a href=""><img src="images/zd5.jpg" alt="超值体验 精品框架 ">
+                        <p>超值体验 精品框架
+                            <br>
+                            <span>
+                            <b>￥</b>
+                                39.9
+                        </span></p>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--每日秒杀结束-->
+
+<!--楼层一-->
+<div class="wide_f_main" id="wide_f_2">
+    <ul class="wide_f_tit  wide_f_tit1">
+        <li>
+            <h2 class="wide_title  float-left">
+                <span>1F</span>
+                透明隐形眼镜
+            </h2>
+        </li>
+        <li class="wide_delicacy float-left">
+            精选： <span>|</span> <a href="/boshilun.html" target="_blank">博士伦</a> <span>|</span> <a href="/qiangsheng.html" target="_blank">强生</a> <span>|</span> <a href="/shikang.html" target="_blank">视康</a> <span>|</span> <a href="/coopervision.html" target="_blank">库博</a> <span>|</span> <a href="/haichang.html" target="_blank">海昌</a> <span>|</span> <a href="/weikang.html" target="_blank">卫康</a> <span>|</span> <a href="/zeiss.html" target="_blank">蔡司</a> <span>|</span> <a href="/shitong.html" target="_blank">实瞳</a> <span>|</span>
+
+        </li>
+        <li class="wide_hot float-left">
+            热门： <span>|</span> <a href="/yinxingyanjing.html?wordId=5" target="_blank">日抛</a> <span>|</span> <a href="/yinxingyanjing.html?wordId=44" target="_blank">月抛</a> <span>|</span> <a href="/yinxingyanjing.html?wordId=46" target="_blank">半年抛</a> <span>|</span> <a href="/event/2015lyxszc" target="_blank">首次配戴</a> <span>|</span> <a href="/yinxingyanjing.html?wordId=97" target="_blank">硅水凝胶</a> <span>|</span>
+
+        </li>
+        <li class="wide_more">
+            <a href="javascript:;">
+                更多
+                <i></i>
+            </a>
+        </li>
+    </ul>
+    <div class="wide_f_left">
+        <div class="wide_f_ban">
+            <div class="wide_infcp infcp_f_left">
+                <ul class="infcptop">
+                    <li>
+                        <a href="javascript:;"><img src="images/yilou/1f_left1.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="images/yilou/1f_left2.jpg" alt=""></a>
+                    </li>
+                </ul>
+                <ol class="infcp_dian">
+                    <li class="changebg"></li>
+                    <li></li>
+                </ol>
+            </div>
+
+        </div>
+        <div class="wide_f_hot">
+            <h4 class="wide_f_hot_tit">HOT热销商品排行</h4>
+            <ul class="wide_f_hot_ul">
+                <li>
+                    <a href="javascript:;">
+                        <label class="wide_f_hot_img">
+                            <img src="images/yilou/1f_top1.jpg" alt="">
+                        </label>
+                        <label  class="wide_f_hot_name">强生舒日日抛30片装 </label>
+                        <label class="wide_f_hot_price">￥208
+                            <del>￥249</del>
+                        </label>
+                        <label class="wide_f_hot_level">
+                            <i class="dengji"></i>
+                        </label>
+                        <label class="wide_f_hot_corner1"></label>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <label class="wide_f_hot_img">
+                            <img src="images/yilou/1f_top1.jpg" alt="">
+                        </label>
+                        <label  class="wide_f_hot_name">强生舒日日抛30片装 </label>
+                        <label class="wide_f_hot_price">￥208
+                            <del>￥249</del>
+                        </label>
+                        <label class="wide_f_hot_level">
+                            <i class="dengji"></i>
+                        </label>
+                        <label class="wide_f_hot_corner2"></label>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <label class="wide_f_hot_img">
+                            <img src="images/yilou/1f_top1.jpg" alt="">
+                        </label>
+                        <label  class="wide_f_hot_name">强生舒日日抛30片装 </label>
+                        <label class="wide_f_hot_price">￥208
+                            <del>￥249</del>
+                        </label>
+                        <label class="wide_f_hot_level">
+                            <i class="dengji"></i>
+                        </label>
+                        <label class="wide_f_hot_corner3"></label>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="wide_f_right">
+        <ul>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/yilou/1f_1.jpg" alt="">
+                    <label class="wide_f_item_price">￥149.00</label>
+                    <label class="wide_f_item_name">库博Biofinity佰视明月抛3片装</label><br>
+                    <label class="wide_f_item_sales">积分抵扣20元</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/yilou/1f_2.jpg" alt="">
+                    <label class="wide_f_item_price">￥149.00</label>
+                    <label class="wide_f_item_name">库博Biofinity佰视明月抛3片装</label><br>
+                    <label class="wide_f_item_sales">积分抵扣20元</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/yilou/1f_3.jpg" alt="">
+                    <label class="wide_f_item_price">￥149.00</label>
+                    <label class="wide_f_item_name">库博Biofinity佰视明月抛3片装</label><br>
+                    <label class="wide_f_item_sales">积分抵扣20元</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/yilou/1f_4.jpg" alt="">
+                    <label class="wide_f_item_price">￥149.00</label>
+                    <label class="wide_f_item_name">库博Biofinity佰视明月抛3片装</label><br>
+                    <label class="wide_f_item_sales">积分抵扣20元</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/yilou/1f_5.jpg" alt="">
+                    <label class="wide_f_item_price">￥149.00</label>
+                    <label class="wide_f_item_name">库博Biofinity佰视明月抛3片装</label><br>
+                    <label class="wide_f_item_sales">积分抵扣20元</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/yilou/1f_6.jpg" alt="">
+                    <label class="wide_f_item_price">￥149.00</label>
+                    <label class="wide_f_item_name">库博Biofinity佰视明月抛3片装</label><br>
+                    <label class="wide_f_item_sales">积分抵扣20元</label>
+                </a>
+            </li>
+            <li class="wide_f_item" style="width: 486px">
+                <div class="wide_infcp  infcp_f_cont">
+                    <ul class="infcptop" id="infcptop1">
+                        <li><a href="javascript:;"><img src="images/yilou/1f_ban1.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="images/yilou/1f_ban2.jpg" alt=""></a></li>
+                    </ul>
+                    <ol class="infcp_dian">
+                        <li class="cur"></li>
+                        <li></li>
+                    </ol>
+                </div>
+
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/yilou/1f_7.jpg" alt="">
+                    <label class="wide_f_item_price">￥149.00</label>
+                    <label class="wide_f_item_name">库博Biofinity佰视明月抛3片装</label><br>
+                    <label class="wide_f_item_sales">积分抵扣20元</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/yilou/1f_8.jpg" alt="">
+                    <label class="wide_f_item_price">￥149.00</label>
+                    <label class="wide_f_item_name">库博Biofinity佰视明月抛3片装</label><br>
+                    <label class="wide_f_item_sales">积分抵扣20元</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/yilou/1f_9.jpg" alt="">
+                    <label class="wide_f_item_price">￥149.00</label>
+                    <label class="wide_f_item_name">库博Biofinity佰视明月抛3片装</label><br>
+                    <label class="wide_f_item_sales">积分抵扣20元</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/yilou/1f_10g.jpg" alt="">
+                    <label class="wide_f_item_price">￥149.00</label>
+                    <label class="wide_f_item_name">库博Biofinity佰视明月抛3片装</label><br>
+                    <label class="wide_f_item_sales">积分抵扣20元</label>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--楼层一结束-->
+<!--楼层广告位开始-->
+<div class="hj_top">
+    <ul class="infcptop">
+        <li><a href="javascript:;"><img src="images/yilou/bp1.jpg" alt=""></a></li>
+        <li><a href="javascript:;"><img src="images/yilou/bp1.jpg" alt=""></a></li>
+        <li><a href="javascript:;"><img src="images/yilou/bp1.jpg" alt=""></a></li>
+        <li><a href="javascript:;"><img src="images/yilou/bp1.jpg" alt=""></a></li>
+        <li><a href="javascript:;"><img src="images/yilou/bp1.jpg" alt=""></a></li>
+        <li><a href="javascript:;"><img src="images/yilou/bp1.jpg" alt=""></a></li>
+        <li><a href="javascript:;"><img src="images/yilou/bp1.jpg" alt=""></a></li>
+        <li><a href="javascript:;"><img src="images/yilou/bp1.jpg" alt=""></a></li>
+    </ul>
+</div>
+<!--楼层广告位结束-->
+
+
+
+<!--楼层二-->
+<div class="wide_f_main">
+    <ul class="wide_f_tit  wide_f_tit1" id="wide_f_tit2">
+        <li>
+            <h2 class="wide_title  float-left">
+                <span>2F</span>
+                彩色隐形眼镜
+            </h2>
+        </li>
+        <li class="wide_delicacy float-left">
+            精选： <span>|</span> <a href="/boshilunmt.html" target="_blank">博士伦</a> <span>|</span> <a href="/qiangshengmeitong.html" target="_blank">强生</a> <span>|</span> <a href="/haichangmt.html" target="_blank">海昌</a> <span>|</span> <a href="/shitongcaipian.html" target="_blank">实瞳</a> <span>|</span> <a href="/nuosi.html" target="_blank">诺思</a> <span>|</span> <a href="/cibavisionclrs.html" target="_blank">视康</a> <span>|</span> <a href="/clb.html" target="_blank">科莱博</a> <span>|</span> <a href="/hailiencaipian.html" target="_blank">海俪恩</a> <span>|</span><a href="/annasui.html" target="_blank" style="color:#8657e0">安娜苏</a> <span>|</span>
+
+        </li>
+        <li class="wide_hot float-left">
+            热门： <span>|</span> <a href="/meitong.html?wordId=5" target="_blank">日抛</a> <span>|</span> <a href="/ziran.html" target="_blank">自然甜美</a> <span>|</span> <a href="/dazhijing.html" target="_blank">大直径</a> <span>|</span> <a href="/zengda.html" target="_blank">小圆环</a> <span>|</span> <a href="/gexing.html" target="_blank">个性混血</a> <span>|</span>
+
+        </li>
+        <li class="wide_more">
+            <a href="javascript:;">
+                更多
+                <i></i>
+            </a>
+        </li>
+    </ul>
+    <div class="wide_f_left">
+        <div class="wide_f_ban">
+            <div class="wide_infcp infcp_f_left">
+                <ul class="infcptop">
+                    <li>
+                        <a href="javascript:;"><img src="images/erlou/2f_left1.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="images/erlou/2f_left2.jpg" alt=""></a>
+                    </li>
+                </ul>
+                <ol class="infcp_dian">
+                    <li class="changebg"></li>
+                    <li></li>
+                </ol>
+            </div>
+
+        </div>
+        <div class="wide_f_hot">
+            <h4 class="wide_f_hot_tit">HOT热销商品排行</h4>
+            <ul class="wide_f_hot_ul">
+                <li>
+                    <a href="javascript:;">
+                        <label class="wide_f_hot_img">
+                            <img src="images/yilou/1f_top1.jpg" alt="">
+                        </label>
+                        <label  class="wide_f_hot_name">强生舒日日抛30片装 </label>
+                        <label class="wide_f_hot_price">￥208
+                            <del>￥249</del>
+                        </label>
+                        <label class="wide_f_hot_level">
+                            <i class="dengji"></i>
+                        </label>
+                        <label class="wide_f_hot_corner1"></label>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <label class="wide_f_hot_img">
+                            <img src="images/yilou/1f_top1.jpg" alt="">
+                        </label>
+                        <label  class="wide_f_hot_name">强生舒日日抛30片装 </label>
+                        <label class="wide_f_hot_price">￥208
+                            <del>￥249</del>
+                        </label>
+                        <label class="wide_f_hot_level">
+                            <i class="dengji"></i>
+                        </label>
+                        <label class="wide_f_hot_corner2"></label>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <label class="wide_f_hot_img">
+                            <img src="images/yilou/1f_top1.jpg" alt="">
+                        </label>
+                        <label  class="wide_f_hot_name">强生舒日日抛30片装 </label>
+                        <label class="wide_f_hot_price">￥208
+                            <del>￥249</del>
+                        </label>
+                        <label class="wide_f_hot_level">
+                            <i class="dengji"></i>
+                        </label>
+                        <label class="wide_f_hot_corner3"></label>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="wide_f_right">
+        <ul>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/erlou/2f_2.jpg" alt="">
+                    <label class="wide_f_item_price">￥49.00</label>
+                    <label class="wide_f_item_name">海昌星眸印象之美日抛彩色10片装</label><br>
+                    <label class="wide_f_item_sales">星光印象 耀美双眸</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/erlou/2f_1g.jpg" alt="">
+                    <label class="wide_f_item_price">￥29.00</label>
+                    <label class="wide_f_item_name">科莱博Ice Color彩色月抛2片装</label><br>
+                    <label class="wide_f_item_sales">眼眸晶莹剔透</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/erlou/2f_3.jpg" alt="">
+                    <label class="wide_f_item_price">￥39.00</label>
+                    <label class="wide_f_item_name">NEO可视眸小黑环半年抛1片装</label><br>
+                    <label class="wide_f_item_sales">自然经典 水润舒适</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/erlou/2f_4.jpg" alt="">
+                    <label class="wide_f_item_price">￥39.00</label>
+                    <label class="wide_f_item_name">诺思魅眸Rose Girl美妆彩瞳半年抛1片装</label><br>
+                    <label class="wide_f_item_sales">彩虹花色，潮流绽放</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/erlou/2f_5.jpg" alt="">
+                    <label class="wide_f_item_price">￥39.00</label>
+                    <label class="wide_f_item_name">妃蜜莉Femii彩色月抛1片装</label><br>
+                    <label class="wide_f_item_sales">第二盒半价</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/erlou/2f_6.jpg" alt="">
+                    <label class="wide_f_item_price">￥88.00</label>
+                    <label class="wide_f_item_name">绮芙莉彩色日抛10片装</label><br>
+                    <label class="wide_f_item_sales">拍两盒立减40元</label>
+                </a>
+            </li>
+            <li class="wide_f_item" style="width: 486px">
+                <div class="wide_infcp  infcp_f_cont">
+                    <ul class="infcptop"  id="infcptop2">
+                        <li><a href="javascript:;"><img src="images/erlou/2f_ban2%20(1).jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="images/yilou/1f_ban2.jpg" alt=""></a></li>
+                    </ul>
+                    <ol class="infcp_dian">
+                        <li class="cur"></li>
+                        <li></li>
+                    </ol>
+                </div>
+
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/erlou/2f_7.jpg" alt="">
+                    <label class="wide_f_item_price">￥39.00</label>
+                    <label class="wide_f_item_name"> 绮芙莉彩色月抛1片装</label><br>
+                    <label class="wide_f_item_sales">第二盒半价</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/erlou/2f_8g.jpg" alt="">
+                    <label class="wide_f_item_price">￥45.00</label>
+                    <label class="wide_f_item_name">海昌心怡丽眸彩色隐形眼镜季抛2片</label><br>
+                    <label class="wide_f_item_sales">心动之选 怡然丽眸</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/erlou/2f_9.jpg" alt="">
+                    <label class="wide_f_item_price">￥29.00</label>
+                    <label class="wide_f_item_name">诺思魅眸星际美妆彩瞳月抛3片装</label><br>
+                    <label class="wide_f_item_sales">小红书推荐款</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/erlou/2f_10.jpg" alt="">
+                    <label class="wide_f_item_price">￥159.00</label>
+                    <label class="wide_f_item_name">实瞳可芙蕾日抛30片装</label><br>
+                    <label class="wide_f_item_sales">经典自然目</label>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--楼层二结束-->
+<!--楼层二广告位开始-->
+<div class="hj_top">
+    <ul class="infcptop">
+        <li><a href="javascript:;"><img src="images/erlou/cp1.jpg" alt=""></a></li>
+        <li><a href="javascript:;"><img src="images/erlou/cp2.jpg" alt=""></a></li>
+        <li><a href="javascript:;"><img src="images/erlou/cp3.jpg" alt=""></a></li>  <li><a href="javascript:;"><img src="images/erlou/cp4.jpg" alt=""></a></li>
+        <li><a href="javascript:;"><img src="images/erlou/cp5.jpg" alt=""></a></li>
+        <li><a href="javascript:;"><img src="images/erlou/cp6.jpg" alt=""></a></li>
+        <li><a href="javascript:;"><img src="images/erlou/cp7.jpg" alt=""></a></li>
+        <li><a href="javascript:;"><img src="images/erlou/cp8.jpg" alt=""></a></li>
+
+
+
+
+
+
+    </ul>
+</div>
+<!--楼层二广告位结束-->
+
+<!--楼层三-->
+<div class="wide_f_main">
+    <ul class="wide_f_tit  wide_f_tit1" id="wide_f_tit3">
+        <li>
+            <h2 class="wide_title  float-left">
+                <span>3F</span>
+                透明隐形眼镜
+            </h2>
+        </li>
+        <li class="wide_delicacy float-left">
+            精选：
+            <span>|</span>
+            <a href="/alcon.html" target="_blank">爱尔康</a>
+            <span>|</span>
+            <a href="/runming.html " target="_blank">博士伦</a>
+            <span>|</span>
+            <a href="/haichanghly.html" target="_blank">海昌</a>
+            <span>|</span>
+            <a href="/weikanghly.html " target="_blank">卫康</a>
+            <span>|</span>
+            <a href="/season.html" target="_blank">科莱博</a>
+            <span>|</span>
+            <a href="/avizor.html" target="_blank">优卓</a>
+            <span>|</span>
+            <a href="/complete.html " target="_blank">全能</a>
+            <span>|</span>
+            <a href="/visine.html" target="_blank">优能</a>
+            <span>|</span>
+        </li>
+        <li class="wide_hot float-left" style="margin-left:50px;">
+            热门：
+            <span>|</span>
+            <a href="/cxzhiy.html" target="_blank">促销装</a>
+            <span>|</span>
+            <a href="/triphly.html" target="_blank">旅行装</a>
+            <span>|</span>
+            <a href="/huliyemt.html" target="_blank">彩瞳专用</a>
+            <span>|</span>
+            <a href="/runyanye.html" target="_blank">润眼液</a>
+            <span>|</span>
+            <a href="/yingxinghly.html" target="_blank">RGP护理液</a>
+            <span>|</span>
+        </li>
+        <li class="wide_more">
+            <a href="javascript:;">
+                更多
+                <i></i>
+            </a>
+        </li>
+    </ul>
+    <div class="wide_f_left">
+        <div class="wide_f_ban">
+            <div class="wide_infcp infcp_f_left">
+                <ul class="infcptop">
+                    <li>
+                        <a href="javascript:;"><img src="images/sanlou/3f_left1g.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="images/sanlou/3f_left2.jpg" alt=""></a>
+                    </li>
+                </ul>
+                <ol class="infcp_dian">
+                    <li class="changebg"></li>
+                    <li></li>
+                </ol>
+            </div>
+
+        </div>
+        <div class="wide_f_hot">
+            <h4 class="wide_f_hot_tit">HOT热销商品排行</h4>
+            <ul class="wide_f_hot_ul">
+                <li>
+                    <a href="javascript:;">
+                        <label class="wide_f_hot_img">
+                            <img src="images/sanlou/3f_hot1.jpg" alt="">
+                        </label>
+                        <label  class="wide_f_hot_name">强生舒日日抛30片装 </label>
+                        <label class="wide_f_hot_price">￥208
+                            <del>￥249</del>
+                        </label>
+                        <label class="wide_f_hot_level">
+                            <i class="dengji"></i>
+                        </label>
+                        <label class="wide_f_hot_corner1"></label>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <label class="wide_f_hot_img">
+                            <img src="images/sanlou/3f_hot2.jpg" alt="">
+                        </label>
+                        <label  class="wide_f_hot_name">强生舒日日抛30片装 </label>
+                        <label class="wide_f_hot_price">￥208
+                            <del>￥249</del>
+                        </label>
+                        <label class="wide_f_hot_level">
+                            <i class="dengji"></i>
+                        </label>
+                        <label class="wide_f_hot_corner2"></label>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <label class="wide_f_hot_img">
+                            <img src="images/sanlou/3f_hot3.jpg" alt="">
+                        </label>
+                        <label  class="wide_f_hot_name">强生舒日日抛30片装 </label>
+                        <label class="wide_f_hot_price">￥208
+                            <del>￥249</del>
+                        </label>
+                        <label class="wide_f_hot_level">
+                            <i class="dengji"></i>
+                        </label>
+                        <label class="wide_f_hot_corner3"></label>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="wide_f_right">
+        <ul>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/sanlou/3f_1.jpg" alt="">
+                    <label class="wide_f_item_price">￥105.00</label>
+                    <label class="wide_f_item_name">爱尔康傲滴护理液355ml*2+60ml</label><br>
+                    <label class="wide_f_item_sales">双重杀菌 清洁呵护</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/sanlou/3f_2.jpg" alt="">
+                    <label class="wide_f_item_price">￥98.00</label>
+                    <label class="wide_f_item_name">视康洁镜双氧水护理液360ml</label><br>
+                    <label class="wide_f_item_sales">深层清洁</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/sanlou/3f_3.jpg" alt="">
+                    <label class="wide_f_item_price">￥15.00</label>
+                    <label class="wide_f_item_name">卫康新视护理液500ml</label><br>
+                    <label class="wide_f_item_sales">月销万件</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/sanlou/3f_4g.jpg" alt="">
+                    <label class="wide_f_item_price">￥90.00</label>
+                    <label class="wide_f_item_name">博士伦润明清透护理液355ml*2+120ml</label><br>
+                    <label class="wide_f_item_sales">强力清洁 镜片每日如新</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/sanlou/3f_5.jpg" alt="">
+                    <label class="wide_f_item_price">￥49.00</label>
+                    <label class="wide_f_item_name">优卓优妮卡多功能护理液350ml</label><br>
+                    <label class="wide_f_item_sales">欧洲原装进口 </label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/sanlou/3f_6.jpg" alt="">
+                    <label class="wide_f_item_price">￥64.00</label>
+                    <label class="wide_f_item_name">博士伦润明清透护理液500ml+120ml</label><br>
+                    <label class="wide_f_item_sales">送眼镜清洗器</label>
+                </a>
+            </li>
+            <li class="wide_f_item" style="width: 486px">
+                <div class="wide_infcp  infcp_f_cont">
+                    <ul class="infcptop">
+                        <li><a href="javascript:;"><img src="images/sanlou/3f_ban1.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="images/sanlou/3f_ban2.jpg" alt=""></a></li>
+                    </ul>
+                    <ol class="infcp_dian">
+                        <li class="cur"></li>
+                        <li></li>
+                    </ol>
+                </div>
+
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/sanlou/3f_7.jpg" alt="">
+                    <label class="wide_f_item_price">￥64.00</label>
+                    <label class="wide_f_item_name">爱尔康傲滴乐明护理液300ml+60ml </label><br>
+                    <label class="wide_f_item_sales">长效保湿</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/sanlou/3f_8.jpg" alt="">
+                    <label class="wide_f_item_price">￥116.00</label>
+                    <label class="wide_f_item_name">爱尔康傲滴乐明护理液300ml*2+60ml*2</label><br>
+                    <label class="wide_f_item_sales">双重保湿 驻水滋润</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/sanlou/3f_9.jpg" alt="">
+                    <label class="wide_f_item_price">￥59.00</label>
+                    <label class="wide_f_item_name">美汐双氧水多功能隐形眼镜护理液360ml </label><br>
+                    <label class="wide_f_item_sales">直降20元</label>
+                </a>
+            </li>
+            <li class="wide_f_item">
+                <a href="javascript:;">
+                    <img src="images/sanlou/3f_10.jpg" alt="">
+                    <label class="wide_f_item_price">￥49.00</label>
+                    <label class="wide_f_item_name">海昌水感觉120ml*4+润眼液5ml+双联盒</label><br>
+                    <label class="wide_f_item_sales">锁水保湿 卫生清洁</label>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--楼层三结束-->
+<!--楼层三广告位开始-->
+<div class="hj_top">
+    <ul class="infcptop">
+        <li><a href="javascript:;"><img src="images/sanlou/hly1.jpg" alt=""></a></li>
+        <li><a href="javascript:;"><img src="images/sanlou/hly2.jpg" alt=""></a></li>
+        <li><a href="javascript:;"><img src="images/sanlou/hly3.jpg" alt=""></a></li>
+        <li><a href="javascript:;"><img src="images/sanlou/hly4.jpg" alt=""></a></li>
+    </ul>
+</div>
+<!--楼层三广告位结束-->
+
+<!--楼层四-->
+<div class="wide_f_main">
+    <ul class="wide_f_tit  wide_f_tit4">
+        <li>
+            <h2 class="wide_title  float-left">
+                <span>4F</span>
+                透明隐形眼镜
+            </h2>
+        </li>
+        <li class="wide_delicacy float-left">
+            精选： <span>|</span> <a href="/boshilun.html" target="_blank">博士伦</a> <span>|</span> <a href="/qiangsheng.html" target="_blank">强生</a> <span>|</span> <a href="/shikang.html" target="_blank">视康</a> <span>|</span> <a href="/coopervision.html" target="_blank">库博</a> <span>|</span> <a href="/haichang.html" target="_blank">海昌</a> <span>|</span> <a href="/weikang.html" target="_blank">卫康</a> <span>|</span> <a href="/zeiss.html" target="_blank">蔡司</a> <span>|</span> <a href="/shitong.html" target="_blank">实瞳</a> <span>|</span>
+
+        </li>
+        <!--<li class="wide_hot float-left">-->
+            <!--热门： <span>|</span> <a href="/yinxingyanjing.html?wordId=5" target="_blank">日抛</a> <span>|</span> <a href="/yinxingyanjing.html?wordId=44" target="_blank">月抛</a> <span>|</span> <a href="/yinxingyanjing.html?wordId=46" target="_blank">半年抛</a> <span>|</span> <a href="/event/2015lyxszc" target="_blank">首次配戴</a> <span>|</span> <a href="/yinxingyanjing.html?wordId=97" target="_blank">硅水凝胶</a> <span>|</span>-->
+
+        <!--</li>-->
+        <li class="wide_more">
+            <a href="javascript:;">
+                更多
+                <i></i>
+            </a>
+        </li>
+    </ul>
+    <div class="wide_4f_up">
+        <div class="wide_4f_up float-left">
+            <div class="wide_infcp infcp_4f_ban">
+                <ul class="infcptop" id="infcptop4">
+                    <li><a href="javascript:;"><img src="images/silou/4f_banner3.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="images/silou/4f_banner2.jpg" alt=""></a></li>
+                </ul>
+                <ol class="infcp_dian">
+                    <li class="cur"></li>
+                    <li></li>
+                </ol>
+            </div>
+            <div class="wide_4f_img">
+                <a href="javascript:;"><img src="images/silou/4f_r1.jpg" alt=""></a>
+            </div>
+            <div class="wide_4f_class">
+                <h6>热门分类</h6>
+                <dl>
+                    <dt>按价格</dt>
+                    <dd><100</dd>
+                    <dd>100-199元</dd>
+                    <dd><500</dd>
+                </dl>
+                <br>
+                <dl>
+                    <dt>按价格</dt>
+                    <dd>钛塑</dd>
+                    <dd>板材</dd>
+                    <dd>金属</dd>
+                    <dd>塑钢</dd>
+                    <dd>纯钛</dd>
+                    <dd>TR90</dd>
+                </dl>
+                <br>
+                <br>
+                <dl>
+                    <dt>按价格</dt>
+                    <dd>女款</dd>
+                    <dd>男款</dd>
+                </dl>
+                <br>
+                <dl>
+                    <dt>按尺寸</dt>
+                    <dd>S</dd>
+                    <dd>M</dd>
+                    <dd>L</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="wide_4f_cont">
+        <ul>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--楼层四结束-->
+
+<!--楼层五开始-->
+<div class="wide_f_main wide_f_main5">
+    <ul class="wide_f_tit  wide_f_tit1">
+        <li>
+            <h2 class="wide_title  float-left">
+                <span>5F</span>
+                美妆个护
+            </h2>
+        </li>
+        <li class="wide_delicacy float-left">
+            精选： <span>|</span> <a href="/boshilun.html" target="_blank">博士伦</a> <span>|</span> <a href="/qiangsheng.html" target="_blank">强生</a> <span>|</span> <a href="/shikang.html" target="_blank">视康</a> <span>|</span> <a href="/coopervision.html" target="_blank">库博</a> <span>|</span> <a href="/haichang.html" target="_blank">海昌</a> <span>|</span> <a href="/weikang.html" target="_blank">卫康</a> <span>|</span> <a href="/zeiss.html" target="_blank">蔡司</a> <span>|</span> <a href="/shitong.html" target="_blank">实瞳</a> <span>|</span>
+
+        </li>
+        <!--<li class="wide_hot float-left">-->
+        <!--热门： <span>|</span> <a href="/yinxingyanjing.html?wordId=5" target="_blank">日抛</a> <span>|</span> <a href="/yinxingyanjing.html?wordId=44" target="_blank">月抛</a> <span>|</span> <a href="/yinxingyanjing.html?wordId=46" target="_blank">半年抛</a> <span>|</span> <a href="/event/2015lyxszc" target="_blank">首次配戴</a> <span>|</span> <a href="/yinxingyanjing.html?wordId=97" target="_blank">硅水凝胶</a> <span>|</span>-->
+
+        <!--</li>-->
+        <li class="wide_more">
+            <a href="javascript:;">
+                更多
+                <i></i>
+            </a>
+        </li>
+    </ul>
+    <div class="wide_4f_up">
+        <div class="wide_4f_up float-left">
+            <div class="wide_infcp infcp_4f_ban">
+                <ul class="infcptop"  id="wide_f_tit5">
+                    <li><a href="javascript:;"><img src="images/wulou/5f_banner1.jpg" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="images/wulou/5f_banner2.jpg" alt=""></a></li>
+                </ul>
+                <ol class="infcp_dian">
+                    <li class="cur"></li>
+                    <li></li>
+                </ol>
+            </div>
+            <div class="wide_5f_img">
+                <a href="javascript:;">
+                    <img src="images/silou/5f_right.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="wide_4f_cont" id="wide_5f_cont">
+        <ul>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img src="images/silou/4f_1.jpg" alt="">
+                    <span class="wide_4f_li_name">RAY BAN雷朋眼镜架0RX6346</span>
+                    <span class="wide_4f_li_price">￥580.00起</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--楼层五结束-->
+
+<!--店铺-->
+<dl class="index_shop">
+    <ol class="tab">
+        <li>桂林店</li>
+        <li>新天地店</li>
+        <li>日月光店</li>
+        <li>人民广场店</li>
+        <li>唐镇店</li>
+        <li>中山公园</li>
+    </ol>
+    <ul class="left">
+        <li class="info_on"></li>
+        <li class="map"></li>
+    </ul>
+    <ul class="right">
+        <li class="info aas">
+            <div class="changeBox_a1">
+                <div class="changeBox_overflow">
+                    <a href="javascript:;">
+                        <img src="images/dianpu/shop_riyueguang.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="infoBox">
+                <ul class="serverDIV">
+                    <li class="serverTime"> 营业时间 10:00 - 22:00</li>
+                </ul>
+                <ul class="serviceUl">
+                    <li class="o2oStore">KD品牌专营店</li>
+                    <li class="optometry">进口仪器、专业验光师</li>
+                    <li class="customization">框架眼镜个性化定配</li>
+                </ul>
+               <div class="btnUl">
+                   <a href="javascript:;">
+                       <img src="images/dianpu/cheng_btn.png" alt="">
+                   </a>
+               </div>
+            </div>
+        </li>
+        <li class="map hide">
+            <div class="storeMap">
+                <div class="changeBox_overflow">
+                    <img src="images/dianpu/map_riyueguang.jpg" alt="日月光店地址">
+                </div>
+
+            </div>
+            <div class="infoBox">
+                <ul class="serverDIV">
+                <li class="storeAdd">上海市黄浦区徐家汇路618号1F-TK-19室(日月光中心)</li>
+                    <li class="storeTel">021 - 64339193</li>
+                </ul>
+                <ul class="serviceUl">
+                    <li class="trafficGuide">
+
+                        交通指引：轨道交通9号线打浦桥站
+                        <br>
+
+                        公交线路
+                        <br>
+
+                        41 , 205 , 17 , 327 , 45 , 146内环 , 43 , 931 , 146外环等
+
+                        <br>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <ul class="tit">
+        <li class="aas">
+            <div class="shopinfo">
+                可得旗下KD时尚品牌眼镜专营店日月光店位于日月光泰康区一楼扶手电梯对面，店内布满绿植，文艺摩登的装修，插画，涂鸦、手绘、工装时尚格局与潮酷夯款眼镜，置身于原创设计师灵感空间，享受新意世界。
+            </div>
+            <div class="shopService">
+                <a href="javascript:;" title="KD品牌专营店" class="o2oStore"></a>
+                <a href="javascript:;" title="先进设备、专业验光师" class="optometry"></a>
+                <a href="javascript:;" title="镜架矫正" class="correct"></a>
+                <a href="javascript:;" title="框架眼镜个性化定配" class="customization"></a>
+                <a href="javascript:;" title="地铁直达" class="metroStation"></a>
+            </div>
+        </li>
+    </ul>
+</dl>
+<!--店铺结束-->
+<!--文章开始-->
+<div class="in-last-f">
+    <div class="inlaf-left">
+        <ul class="inlaf-left_top">
+            <li class="active"><a href="javascript:;" >眼镜百科</a></li>
+            <li><a href="javascript:;">问题解答</a></li>
+        </ul>
+        <div class="inlaf-left_Bottom">
+            <ul class="inlaf-left_BottomUl">
+                <li>隐形眼镜度数与验光度数的换算</li>
+                <li>隐形眼镜的佩戴方法</li>
+                <li>正常眼、近视眼、远视眼的区别</li>
+                <li>隐形眼镜与框架眼镜交替使用更健康</li>
+                <li>眼镜与脸型的搭配指南</li>
+                <li>隐形眼镜的佩戴方法</li>
+                <li>正常眼、近视眼、远视眼的区别</li>
+                <li>隐形眼镜与框架眼镜交替使用更健康</li>
+                <li>眼镜与脸型的搭配指南</li>
+            </ul>
+            <ul class="inlaf-left_BottomUl active2">
+                <li>怎样挑选合适的隐形眼镜</li>
+                <li>隐形眼镜取不下来怎么办</li>
+                <li>隐形眼镜如何保养</li>
+                <li>隐形眼镜破一小口子能戴吗</li>
+                <li>电脑验光单怎么看</li>
+                <li>如何选择度数和镜片</li>
+            </ul>
+        </div>
+    </div>
+    <div class="inlaf-middle">
+        <h5>最新评论</h5>
+        <div class="inlaf-m-main">
+            <ul class="reamrkList1">
+                <li>
+                    <img src="images/dianpu/1.png" alt="">
+                </li>
+                <li>
+                    <img src="images/dianpu/2.png" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="inlaf-middle">
+        <h5>最新评论</h5>
+        <div class="inlaf-m-main">
+            <ul class="reamrkList1">
+                <li>
+                    <img src="images/dianpu/1.png" alt="">
+                </li>
+                <li>
+                    <img src="images/dianpu/2.png" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="inlaf-right">
+        <h5>最新评论</h5>
+        <div class="inlaf-m-main">
+            <div id="TabCon1">
+                <a href=""><img src="images/dianpu/weixin1gg.jpg" alt=""></a>
+            </div>
+            <div id="TabCon2">
+                <a href=""><img src="images/dianpu/weibog.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="xixi2 xixi1">
+            <a href="javascript:;" class="tab1" ></a>
+            <a href="javascript:;" class="tab2"></a>
+        </div>
+    </div>
+</div>
+<!--文章结束-->
+
+<!--主体结束-->
+<!--尾部布局-->
+<div class="footer">
+    <div class="footer_in">
+        <div class="FT_A">
+            <img src="images/dianpu/nfot-bg-03.gif" alt="">
+            <div class="FTA-02">
+                <dl>
+                    <dt>关于可得</dt>
+                    <dd>公司简介</dd>
+                    <dd>诚聘精英</dd>
+                    <dd>媒体报道</dd>
+                </dl>
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd>热点问题</dd>
+                    <dd>会员优惠</dd>
+                    <dd>礼券号使用</dd>
+                </dl>
+                <dl>
+                    <dt>配镜指南</dt>
+                    <dd>读懂验光单</dd>
+                    <dd>如何选购隐形眼镜</dd>
+                    <dd>眼镜学堂</dd>
+                </dl>
+                <dl>
+                    <dt>支付配送</dt>
+                    <dd>款到发货</dd>
+                    <dd>支付方式</dd>
+                    <dd>货到付款</dd>
+                </dl>
+                <dl>
+                    <dt>售后服务</dt>
+                    <dd>30天随心退换货服务</dd>
+                    <dd>如何办理退换货、退款</dd>
+                    <dd>投诉建议</dd>
+                </dl>
+                <dl>
+                    <dt>帮助</dt>
+                    <dd>找回密码</dd>
+                    <dd>联系我们</dd>
+                    <dd>快递查询</dd>
+                </dl>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="footer_top">
+            <p>
+                <a href="javascript:;">上海可得光学科技有限公司</a>
+            </p>
+            <ul>
+                <li><a href="javascript:;">联系我们</a><span>|</span></li>
+                <li><a href="javascript:;">友情链接</a><span>|</span></li>
+                <li><a href="javascript:;">眼镜百科</a><span>|</span></li>
+                <li><a href="javascript:;">网站地图</a><span>|</span></li>
+                <li><a href="javascript:;">隐私安全</a><span>|</span></li>
+            </ul>
+            <p class="banben">
+                <span class="copyRight"> Copyright 2006-2017 可得眼镜 KEDE.com 版权所有 　</span>　　
+                <a href="javascript:;">
+                    <img src="images/ba.png" alt="">沪公网安备 31010702003385号
+                </a>
+                <span>全国服务热线：4006-20-20-20</span>
+            </p>
+        </div>
+        <div class="footer_bottom">
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+        </div>
+    </div>
+
+</div>
 
 </body>
 </html>
+<script>
+    $(function () {
+        //右侧固定鼠标移入移出的显示隐藏
+        $('.fixed_right1').hover(function () {
+            $('.fixed_weixin').stop().fadeIn(100);
+        },function () {
+            $('.fixed_weixin').stop().fadeOut(100);
+        })
+
+        $('.fixed_right3').hover(function () {
+            $('.ygs').stop().fadeIn(100);
+        },function () {
+            $('.ygs').stop().fadeOut(100);
+        })
+
+
+
+    //    点击回到顶部
+        $(window).scroll(function () {
+            //    左侧漂浮
+            if($(this).scrollTop()>350){
+                var $self =$(this);
+                $('.pf_left').show(100);
+                $('.pf_left a').css({
+                    display:'block'
+                })
+                $('.fixed_right5').show(100).click(function () {
+                    //误区,之前用$(window).scrollTop()是不行的,  记住animate设置属性的时候可以直接给scrollTop
+                    $('html,body').animate({scrollTop:0},1000);
+                })
+
+            }else{
+                $('.fixed_right5').hide(100);
+            }
+        })
+
+    //    鼠标移入list_item 让底边隐藏 ,
+        $('.list_item').hover(function () {
+            $(this).find('.list_item_line').css({display:'none'});
+            $(this).find('.child_list').css({display:'block'});
+
+        },function () {
+            $(this).find('.list_item_line').css({display:'block'});
+            $(this).find('.child_list').css({display:'none'})
+        })
+
+    //    促销活动最新动态的tab栏切换
+
+        $('.wide_classify_right_tis').children('li').mouseenter(function () {
+            $(this).addClass('selected').siblings('li').removeClass('selected');
+            var $wideLiIndex = $(this).index();
+            $('.wide_classify_tabB').children('ul').eq($wideLiIndex).css({display:'block'}).siblings('ul').css({display:'none'})
+        });
+
+        //下面今日秒杀
+        $('.hp_mbody_left a').hover(function () {
+
+            $(this).addClass('active').parent('div').siblings().find('a').addClass('active');
+            $('.hp_mbody_right').children('div').eq($(this).index()).css({
+                display:'block'
+            }).siblings().css({
+                display:'none'
+            })
+        },function () {
+            $(this).removeClass('active').parent('div').siblings().find('a').removeClass('active');
+            $('.hp_mbody_right').children('div').eq($(this).index()).css({
+                display:'none'
+            }).siblings().css({
+                display:'block'
+            })
+
+        });
+        //文章的tab栏
+            $('.inlaf-left_top > li').mouseenter(function () {
+                $(this).removeClass('active').siblings().addClass('active');
+                $('.inlaf-left_Bottom').children('ul').eq( $(this).index()).addClass('active2').siblings().removeClass('active2');
+            })
+
+        //文章右侧tab栏
+        $('.xixi2').children('a').hover(function () {
+            $(this).parent().toggleClass('xixi2');
+            $('.inlaf-m-main').children('div').eq($(this).index()).css({
+                display:'block'
+            }).siblings().css({
+                display:'none'
+            })
+        },function () {
+            // $(this).parent().attr('class','xixi2');
+        })
+
+
+        })
+
+    //    一楼侧右侧轮播
+
+    $(function () {
+
+        var imgIndex= 0;
+        function autolunbo() {
+            imgIndex++;
+
+            if(imgIndex>=2){
+                imgIndex=0;
+                $('.infcptop').animate({left:0})
+            }
+            var $width =$('.infcptop').find('img').width();
+            $('.wide_f_ban .infcptop').animate({left:-$width*imgIndex});
+
+            $('.wide_f_right .infcptop').animate({
+                left: -489*imgIndex
+            });
+            $('#infcptop1').siblings().children('li').eq(imgIndex).addClass('cur').siblings().removeClass('cur');
+            $('#infcptop2').siblings().children('li').eq(imgIndex).addClass('cur').siblings().removeClass('cur');
+            $('#infcptop3').siblings().children('li').eq(imgIndex).addClass('cur').siblings().removeClass('cur');
+
+            $('#infcptop4').animate({left:-710*imgIndex});
+            $('#wide_f_tit5').animate({left:-710*imgIndex});
+            $('#wide_f_tit5').siblings().children('li').eq(imgIndex).addClass('cur').siblings().removeClass('cur');
+
+            $('#infcptop4').siblings().children('li').eq(imgIndex).addClass('cur').siblings().removeClass('cur');
+        }
+
+            var timer = setInterval(autolunbo,5000);
+        $('.infcptop').mouseenter(function () {
+            clearInterval(timer);
+        })
+        $('.infcptop').mouseleave(function () {
+            setInterval(autolunbo,5000);
+        })
+
+    })
+
+
+
+</script>
